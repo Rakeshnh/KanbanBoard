@@ -31,6 +31,7 @@ export default function Board() {
 
   return (
     <div>
+      <h1>KanBan Board</h1>
     <TaskInput/>
     <div className="board">
       {Object.values(state.columns).map((col) => (
